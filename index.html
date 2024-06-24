@@ -3,20 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hotel Sunshine</title>
+<title>Hotel Sunshine - Luxury and Comfort</title>
 <link rel="stylesheet" href="bluestyle.css"> <!-- Link to external CSS file -->
 </head>
 <body>
   <div class="container">
+    <!-- Header Section -->
     <header>
       <h1>Welcome to Hotel Sunshine</h1>
       <p>Experience luxury and comfort in the heart of the city</p>
+      <button onclick="window.location.href='#contact'">Contact Us</button>
     </header>
+
+    <!-- Main Content Section -->
     <main>
+      <!-- About Section -->
       <section class="about">
         <h2>About Us</h2>
         <p>Hotel Sunshine offers premium accommodations with top-notch amenities and services. Enjoy a relaxing stay with us, where every detail is designed to make your experience unforgettable.</p>
       </section>
+
+      <!-- Services Section -->
       <section class="services">
         <h2>Our Services</h2>
         <ul>
@@ -27,18 +34,23 @@
           <li>Conference and Event Halls</li>
         </ul>
       </section>
-      <section class="contact">
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <p>Address: 123 Sunshine Avenue, Happy City</p>
         <p>Phone: (123) 456-7890</p>
-        <p>Email: info@hotelsunshine.com</p>
+        <p>Email: <a href="mailto:info@hotelsunshine.com">info@hotelsunshine.com</a></p>
       </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
       <p>&copy; 2024 Hotel Sunshine. All rights reserved.</p>
     </footer>
   </div>
 
+  <!-- JavaScript for interactive elements -->
   <script>
     function changeColor() {
       var textElement = document.getElementById('text');
