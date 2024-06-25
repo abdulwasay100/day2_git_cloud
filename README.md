@@ -9,5 +9,4 @@ The main purpose of this repository is to:
 - Understand the role of version control in software development workflows.
 - Learn how to collaborate effectively using GitHub, including pull requests and branching strategies.
 - Explore integration with cloud platforms like AWS, Azure, or Google Cloud for CI/CD pipelines and infrastructure management.
-- -------------------------------------------------------------------------------------------------------------------
-the end
+
